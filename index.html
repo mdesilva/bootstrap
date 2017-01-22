@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> <!--Character set !-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--ensure proper rendering on mobile device !-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:900|Roboto" rel="stylesheet">
+	<script src="https://use.fontawesome.com/1d5c6010a2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+	<script src="js/function.js"></script>
+	<style>
+	h2 {
+		font-family: 'Raleway', sans-serif;
+	}
+	h6 {
+		font-family: 'Pacifico', sans-serif;
+		font-size: 32px;
+	}
+	</style>
+	<title> Sample </title>
+</head>
+<body id="page-top" class="index">
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-1">
+				<span class="sr-only">Toggle nav</span> Menu <i class="fa fa-bars"></i>
+			</button>
+			<h6><a class="navbar-brand page-scroll" href="#page-top"> Bootstrap </a></h6>
+		</div>
+		<div class="collapse navbar-collapse" id="main-links">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden">
+					<a href="#page-top"></a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#services">Services</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#portfolio">Portfolio</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#about">About</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+	<div class="container-fluid"> <!--full width container!-->
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="mySlider" class="carousel slide" data-ride="carousel">  <!--Carousel object !-->
+					<!-- navigation indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#mySlider" data-slide-to="0" class="active"></li>
+						<li data-target="#mySlider" data-slide-to="1"></li>
+					</ol>
+
+
+
+					<!-- slides go here !-->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active"> <!--Item zero !-->
+							<img src="images/desk.jpg" alt="Workspace" />
+							<div class="carousel-caption">
+								<h3> Some text </h3>
+							</div>
+						</div>
+						<div class="item"><!--Item one !-->
+							<img src="images/tech.jpg" alt="Hip workspace"/>
+							<div class="carousel-caption">
+								<h3> Some more text </h3>
+							</div>
+						</div>
+					
+
+					<!-- controls !-->
+					<a class="left carousel-control" href="#mySlider" data-slide="prev">
+						<i class="glyphicon glyphicon-chevron-left"></i>
+					</a>
+					<a class="right carousel-control" href="#mySlider" data-slide="next">
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</a>
+
+
+
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<!--Services section -->
+<section id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 align="center"> SERVICES</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4" align="center">
+					<i class="fa fa-shopping-cart fa-4x"></i>
+					<h3> E-Commerse </h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros eros, dictum non sem eget, imperdiet viverra leo. Maecenas leo nulla, mollis et erat nec, condimentum consectetur purus. Aliquam sit amet lectus nec erat hendrerit placerat et quis ante.</p>
+				</div>
+				<div class="col-md-4" align="center">
+					<i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+					<h3> Responsive and Efficient Code </h3>
+					<p>  Ut tristique purus non dui tristique, eu tincidunt felis tempus. Duis bibendum iaculis ante, ac consectetur lorem bibendum quis. Pellentesque vel convallis magna. Morbi sit amet mauris porttitor, malesuada arcu at, mattis lorem. .</p>
+				</div>
+				<div class="col-md-4" align="center">
+					<i class="fa fa-lock fa-4x" aria-hidden="true"></i>
+					<h3> Attention to Scale </h3>
+					<p> Nunc molestie, ipsum ultrices egestas venenatis, neque odio dignissim ante, eget sodales ante elit quis risus. Sed euismod leo id iaculis hendrerit. In placerat libero at elementum rhoncus. Maecenas et sagittis metus.</p>
+				</div>
+			</div>
+		</section>
+<!--Portfolio section -->
+<section id="portfolio" class="bg-light-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>PORTFOLIO</h2>
+				<p>Lorem impsum dolor </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" align="center">
+				<div class="thumbnail">
+					<img src="images/thumbnail1.jpg" height="289" width="400" alt="Portfolio example 1">
+					<div class="caption">
+						<h3> Label </h3>
+						<p> Some explanatory text </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/thumbnail2.jpg" alt="Portfolio example 2">
+					<div class="caption">
+						<h3> Label </h3>
+						<p> Some explanatory text </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/thumbnail3.jpg" alt="Portfolio example 3">
+					<div class="caption">
+						<h3> Label </h3>
+						<p> Some explanatory text </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--About Section !-->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>ABOUT</h2>
+				<p> Some dignifying text </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3> Title </h3>
+				<p>Etiam sollicitudin consequat cursus. Fusce ornare ex nec diam consequat, cursus sagittis elit varius. Aliquam volutpat gravida bibendum. Donec feugiat nunc maximus, posuere libero pretium, bibendum massa. Integer ut suscipit nibh. Fusce efficitur magna quam, maximus faucibus lacus porta at. Curabitur scelerisque enim sem, non venenatis sapien mollis ac. Etiam placerat, nunc faucibus faucibus ornare, velit augue interdum tellus, in vehicula ligula nisl id augue. Phasellus nec justo aliquet, feugiat est ultricies, auctor purus. Sed pellentesque leo mattis ornare eleifend. Curabitur sagittis eleifend enim, eget mattis quam. Vestibulum imperdiet ante et pretium dignissim. Vestibulum a nibh sit amet magna laoreet vehicula ut dictum ipsum. Praesent eu libero tellus.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Footer !-->
+<footer>
+	<div class="row">
+		<div class="col-md-4">
+			<span class="copyright">Copyright &copy; Your Company </span>
+		</div>
+		<div class="col-md-4">
+			<ul class="list-inline social-buttons">
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<ul class="list-inline quicklinks">
+				<li><a href="#">Terms of Use </a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
