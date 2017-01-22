@@ -1,2 +1,2 @@
 # bootstrap
-Simple bootstrap layout for evaluation purposes
+Simple, one page, scrolling bootstrap layout for evaluation purposes
